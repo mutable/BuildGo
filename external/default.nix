@@ -29,7 +29,7 @@ let
   loadPackageInfo =
     let
       dumper = program {
-        path = "github.com/mutable/BuildGo/external";
+        path = "github.com/mutable/buildGo/external";
         name = "dumper";
 
         srcs = [
